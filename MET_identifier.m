@@ -1,4 +1,6 @@
 function [ident,desc] = MET_identifier(speed,positions)
+    %function that identifies the MET score of an excercise based on the mean Speed recorded during said excercise.
+    %Also returns a short string explanation the user's better understanding
     means = [];
     mets = [1;2;3;4;5;8;10;13;15];
     descriptions = ["standing";"slow walk";"average walk";"brisk walk";"very brisk walk";"jog";"run";"fast run";"very fast run"];
