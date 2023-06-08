@@ -1,4 +1,4 @@
-%test file for quick demonstration. Same code is included in livescript
+%test script for quick demonstration. Same code is included in livescript
 weight = 55
 data = load("sensorlog_20230608_115207.mat");
 time = data.Position.Timestamp;
